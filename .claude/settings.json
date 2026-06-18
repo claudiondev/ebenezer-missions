@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw *)",
+      "Bash(curl *)",
+      "Bash(pkill *)",
+      "Bash(pgrep *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(tail *)",
+      "Bash(mkdir *)",
+      "Bash(export *)",
+      "Bash(echo *)",
+      "Bash(until *)",
+      "Write",
+      "Edit"
+    ]
+  }
+}
