@@ -4,5 +4,6 @@ public enum Role {
     MISSIONARY,
     INTERCESSOR,
     SUPPORTER,
+    PSYCHOLOGIST,
     ADMIN
 }

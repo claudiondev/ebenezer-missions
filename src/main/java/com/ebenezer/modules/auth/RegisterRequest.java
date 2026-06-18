@@ -25,5 +25,11 @@ RegisterRequest(
 
         String field,
         String country,
-        String bio
+        String bio,
+
+        // campos exclusivos de psicólogos
+        String phone,
+        String specialty,
+        String approach,
+        java.math.BigDecimal pricePerSession
 ) {}

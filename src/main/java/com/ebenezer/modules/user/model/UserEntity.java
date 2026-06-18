@@ -42,6 +42,14 @@ public class UserEntity {
     @Column(columnDefinition = "TEXT")
     private String bio;
 
+    // campos exclusivos de psicólogos
+    private String phone;
+    private String specialty;
+    private String approach;
+
+    @Column(precision = 8, scale = 2)
+    private java.math.BigDecimal pricePerSession;
+
     @CreatedDate
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;

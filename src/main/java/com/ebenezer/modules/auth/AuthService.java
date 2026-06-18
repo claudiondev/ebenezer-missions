@@ -40,6 +40,10 @@ public class AuthService {
                 .field(request.field())
                 .country(request.country())
                 .bio(request.bio())
+                .phone(request.phone())
+                .specialty(request.specialty())
+                .approach(request.approach())
+                .pricePerSession(request.pricePerSession())
                 .build();
 
         return buildAuthResponse(userService.save(user));
