@@ -33,7 +33,7 @@ spring:
 application:
   jwt:
     # Mínimo 32 caracteres (256 bits) para HS256 — troque em produção
-    secret: ${JWT_SECRET:3cF8zP2mK9qR7tL5vX1nB4dJ6hG0yW8A}
+    secret: ${JWT_SECRET}
     expiration: ${JWT_EXPIRATION:3600000}          # 1 hora em ms
     refresh-expiration: ${JWT_REFRESH_EXPIRATION:604800000}  # 7 dias em ms
   frontend-url: ${FRONTEND_URL:http://localhost:5173}

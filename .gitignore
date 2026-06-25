@@ -35,3 +35,6 @@ build/
 ### Variáveis de ambiente ###
 .env
 .env.*
+
+### Claude Code ###
+CLAUDE.md
